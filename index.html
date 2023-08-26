@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorful Shop</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">InstaShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-category="all">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-category="electronics">Electronics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-category="jewelery">Jewelery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-category="men's clothing">Men's Clothing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-category="women's clothing">Women's Clothing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row products" id="products"></div>
+  <div class="row">
+    <div class="col-12 col-md-6 collection" id="collection">
+      <h2>Your Collection</h2>
+    </div>
+    <div class="col-12 col-md-6 product-details" id="product-details"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
